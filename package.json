@@ -1,12 +1,17 @@
 {
   "name": "slv-mkscript",
+  "version": "0.8.1",
   "description": "Create scripts for Silvergun Game Engine",
   "author": "Matthew Evans",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicSponge/silvergun.git",
-    "directory": "tools"
+    "url": "git+https://github.com/AtomicSponge/slv-mkscript.git"
+  },
+  "url": "https://www.npmjs.com/package/slv-mkscript",
+  "homepage": "https://github.com/AtomicSponge/slv-mkscript#readme",
+  "bugs": {
+    "url": "https://github.com/AtomicSponge/slv-mkscript/issues"
   },
   "keywords": [
     "engine",
@@ -15,13 +20,9 @@
     "tools",
     "scripts"
   ],
-  "url": "https://github.com/AtomicSponge/silvergun",
-  "homepage": "https://github.com/AtomicSponge/silvergun#readme",
-  "bugs": {
-    "url": "https://github.com/AtomicSponge/silvergun/issues"
-  },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "slv-mkscript": "dist/slv-mkscript.js"
