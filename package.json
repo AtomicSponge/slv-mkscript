@@ -1,6 +1,6 @@
 {
-  "name": "silvergun-tools",
-  "description": "WTEngine Development Tools",
+  "name": "slv-mkscript",
+  "description": "Create scripts for Silvergun Game Engine",
   "author": "Matthew Evans",
   "license": "MIT",
   "repository": {
